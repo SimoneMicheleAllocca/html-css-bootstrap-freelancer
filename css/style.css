@@ -20,3 +20,39 @@ img{
 .avatar{
     width: 50%;
 }
+
+/* ABOUT US */
+.ms_about{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.ms_cont-about{
+    width: 70%;
+}
+.ms_btn{
+    border: 1px solid white;
+    background-color: #1abc9c;
+}
+
+.ms_btn>i{
+    color: white;
+}
+.ms_btn>a{
+    color: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTACT */
+.ms_btn_contact{
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.ms_btn_contact>a{
+    color: inherit;
+    color: white;
+    text-decoration: none;
+}

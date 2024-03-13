@@ -1,4 +1,6 @@
-
+img{
+    max-width: 100%;
+}
 /* HEADER */
 .ms_header{
     height: 60px;
@@ -7,4 +9,14 @@
 
 .ms_header h2{
     color: white;
+}
+
+/* HERO */
+.ms_hero{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.avatar{
+    width: 50%;
 }

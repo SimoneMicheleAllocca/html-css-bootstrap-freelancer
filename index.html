@@ -21,10 +21,28 @@
 <body>
 
     <!-- HEADER -->
-    <header class="ms_header">
-        <div class="container d-flex d-flex-row justify-content-between align-content-center">
-            <h2>Start Bootstrap</h2>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-expand-lg ms ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PORTOFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                  </li>
+                
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -78,10 +96,7 @@
                     <div class="col-12 col-md-6 ms_card">
                         Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                     </div>
-                    <button class="ms_btn col-6">
-                        <i class="fa-solid fa-download"></i>
-                        <a href="">Download</a>
-                    </button>
+                    <button type="button" class="btn btn-outline-light">Download</button>
 
                 </div>
             </div>
@@ -92,14 +107,32 @@
             <div class="container">
                 <h3>CONTACT ME</h3>
                 <div class="row ms_contact-col">
-                    <div class="col-12">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laborum!
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate necessitatibus accusamus possimus, iste tempora consequuntur quibusdam tenetur unde accusantium provident.
-                    </div>
-                    <button class="ms_btn_contact col-2">
-                        <a href="">Send</a>
-                    </button>
-            </div>
+                    <form class="row g-3">
+                        <div class="col-12">
+                        <div class="col-12">
+                          <label for="inputName" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="inputName" placeholder="Nome..">
+                        </div>
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        
+                        <div class="col-12">
+                          <label for="inputNumber" class="form-label">number</label>
+                          <input type="number" class="form-control" id="inputNumber" placeholder="+39 333443344">
+                        </div>
+                        <div class="col-md-12">
+                          <label for="inputMex" class="form-label">Message</label>
+                          <input type="text" class="form-control" id="inputMex">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                      </form>
         </section>
 
         <!-- INFO -->

@@ -2,9 +2,11 @@ img{
     max-width: 100%;
 }
 /* HEADER */
-.ms_header{
-    height: 60px;
+nav{
     background-color: #2c3e50;
+}
+nav a{
+    color: white;
 }
 
 .ms_header h2{
@@ -30,10 +32,7 @@ img{
 .ms_cont-about{
     width: 70%;
 }
-.ms_btn{
-    border: 1px solid white;
-    background-color: #1abc9c;
-}
+
 
 .ms_btn>i{
     color: white;
@@ -45,11 +44,8 @@ img{
 }
 
 /* CONTACT */
-.ms_btn_contact{
+.btn-primary{
     background-color: #1abc9c;
-    border: none;
-    border-radius: 10px;
-    margin: 100px 0;
 }
 .ms_btn_contact>a{
     color: inherit;
